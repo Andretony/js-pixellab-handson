@@ -49,11 +49,11 @@ var i = 1;
 // }
 
 // Folosind keywordul continue afiseaza doar numerele pare intre 1 si 32 (inclusiv).
-while (i <= 32) {
-  console.log(i);
+// while (i <= 32) {
+//   console.log(i);
 
-  if (i % 2 === 0) {
-    continue;
-  }
-  i++;
-}
+//   if (i % 2 === 0) {
+//     continue;
+//   }
+//   i++;
+// }
