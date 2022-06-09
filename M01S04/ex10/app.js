@@ -162,11 +162,11 @@ console.warn(
   ` Folosind forEach, afiseaza suma anilor de nastere a persoanelor `,
 );
 
-// var birthYear = 2022;
-// var friedsYear = 0;
-// var sumAge = 0;
-// person.friends.forEach(function (friend) {
-//   friendsYear += Math.abs(friend.age - birthYear);
-//   sumAge += friendsYear;
-// });
-// console.log(sumAge);
+var birthYear = 2022;
+var friedsYear = 0;
+var sumAge = 0;
+person.friends.forEach(function (friend) {
+  friendsYear += Math.abs(friend.age - birthYear);
+  sumAge += friendsYear;
+});
+console.log(sumAge);
